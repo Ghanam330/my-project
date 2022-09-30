@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coursesses",
+  "info": {
+    "singularName": "coursess",
+    "pluralName": "coursesses",
+    "displayName": "Coursess",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_video": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "name_course": {
+      "type": "string",
+      "required": true,
+      "default": "video1"
+    },
+    "descrbtion_video": {
+      "type": "text",
+      "required": true,
+      "default": "no description"
+    }
+  }
+}
