@@ -25,9 +25,10 @@
       ]
     },
     "description": {
-      "type": "string",
+      "type": "text",
       "required": true,
-      "default": "no description"
+      "default": "no description",
+      "maxLength": 4000
     },
     "tags": {
       "type": "relation",
