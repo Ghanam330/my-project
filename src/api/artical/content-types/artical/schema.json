@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articals",
+  "info": {
+    "singularName": "artical",
+    "pluralName": "articals",
+    "displayName": "Artical"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "artical_name": {
+      "type": "string",
+      "required": true,
+      "default": "artical1"
+    },
+    "artical_describtion": {
+      "type": "text",
+      "required": true,
+      "default": "no description"
+    },
+    "image_descrption": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "private": true,
+      "required": true
+    }
+  }
+}
