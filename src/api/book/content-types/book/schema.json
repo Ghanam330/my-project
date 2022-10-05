@@ -4,7 +4,8 @@
   "info": {
     "singularName": "book",
     "pluralName": "books",
-    "displayName": "Book"
+    "displayName": "Book",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,21 +17,22 @@
       "default": "book1",
       "required": true
     },
-    "book_pdf": {
-      "allowedTypes": [
-        "files"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
-    },
     "image_cover": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url_pdf": {
+      "type": "string",
       "required": true
+    },
+    "descrption_book": {
+      "type": "text",
+      "required": true,
+      "default": "no description"
     }
   }
 }
