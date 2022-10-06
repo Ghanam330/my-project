@@ -33,7 +33,7 @@
       "type": "text",
       "required": true,
       "default": "no description",
-      "maxLength": 400
+      "maxLength": 3000
     }
   }
 }
