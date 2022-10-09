@@ -31,10 +31,6 @@
       "required": true,
       "default": "no description",
       "maxLength": 400
-    },
-    "is_check": {
-      "type": "boolean",
-      "default": false
     }
   }
 }
