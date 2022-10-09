@@ -34,8 +34,7 @@
     },
     "is_check": {
       "type": "boolean",
-      "default": false,
-      "required": true
+      "default": false
     }
   }
 }
