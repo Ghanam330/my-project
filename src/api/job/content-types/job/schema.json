@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "job"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "experienceLevel": {
+      "type": "string",
+      "required": true
+    },
+    "experienceLevelColor": {
+      "type": "string",
+      "required": true
+    },
+    "companyLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
