@@ -32,11 +32,7 @@
       "required": true
     },
     "companyLogo": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true,
+      "type": "string",
       "required": true
     }
   }
