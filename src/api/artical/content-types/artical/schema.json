@@ -14,12 +14,15 @@
     "artical_name": {
       "type": "string",
       "required": true,
-      "default": "artical1"
     },
     "artical_describtion": {
       "type": "text",
       "required": true,
       "default": "no description"
+    },
+    "artical_url": {
+      "type": "text",
+      "required": true,
     },
     "image_descrption": {
       "allowedTypes": [
