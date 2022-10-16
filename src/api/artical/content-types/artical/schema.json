@@ -24,14 +24,13 @@
       "type": "text",
       "required": true
     },
-    "image_descrption": {
-      "allowedTypes": [
-        "images"
-      ],
+    "image_cover": {
       "type": "media",
       "multiple": false,
-      "private": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
