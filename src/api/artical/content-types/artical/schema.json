@@ -13,7 +13,7 @@
   "attributes": {
     "artical_name": {
       "type": "string",
-      "required": true,
+      "required": true
     },
     "artical_describtion": {
       "type": "text",
@@ -22,7 +22,7 @@
     },
     "artical_url": {
       "type": "text",
-      "required": true,
+      "required": true
     },
     "image_descrption": {
       "allowedTypes": [
