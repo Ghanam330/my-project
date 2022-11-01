@@ -17,6 +17,10 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "url_ads": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -30,6 +30,10 @@
       "default": "no description",
       "maxLength": 4000
     },
+    "url_list_youtube": {
+      "type": "string",
+      "required": true
+    },
     "tags": {
       "type": "relation",
       "relation": "oneToMany",
