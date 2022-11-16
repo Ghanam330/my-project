@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tag2s",
+  "info": {
+    "singularName": "tag2",
+    "pluralName": "tag2s",
+    "displayName": "Tag2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "product2": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product2.product2",
+      "inversedBy": "tag2"
+    }
+  }
+}
